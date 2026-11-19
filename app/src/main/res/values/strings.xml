@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">VoxRelay</string>
+
+    <!-- Navigation -->
+    <string name="nav_chat">Chat</string>
+    <string name="nav_dialer">Dialer</string>
+    <string name="nav_studio">Studio</string>
+    <string name="nav_settings">Voice</string>
+
+    <!-- CallScreen Dialer -->
+    <string name="call_screen_title">Quick Dialer</string>
+    <string name="call_screen_subtitle">Enter any company phone number and launch your phone dialer instantly.</string>
+    <string name="action_open_dialer">Open Phone Dialer</string>
+    <string name="action_dial_and_speak_studio">Dial &amp; Open Voice Studio</string>
+    <string name="call_screen_studio_bridge_title">Optional: Prepare AI Voice Script</string>
+    <string name="cd_clear_phone_number">Clear phone number</string>
+    <string name="cd_backspace_digit">Delete last digit</string>
+    <string name="action_open_in_dialer">Dialer</string>
+
+    <!-- Audio Transcription -->
+    <string name="action_record_transcribe">Record &amp; Transcribe</string>
+    <string name="action_stop_transcribe">Stop &amp; Transcribe</string>
+    <string name="status_recording_audio">Recording audio… %1$ds</string>
+    <string name="status_transcribing_audio">Transcribing audio with Gemini…</string>
+    <string name="chatbot_role_label">Assistant role</string>
+
+    <!-- Chat & Dispatch -->
+    <string name="hero_badge">AI VOICE DISPATCH</string>
+    <string name="hero_title">Chat it. We call and speak for you.</string>
+    <string name="hero_subtitle">Tell VoxRelay which company to reach and what you need. Gemini drafts the spoken script, dials the number, and speaks live on speakerphone.</string>
+    <string name="chat_input_placeholder">Tell me who to call and what to say…</string>
+    <string name="cd_send_message">Send message</string>
+    <string name="cd_voice_dictate">Dictate message with microphone</string>
+    <string name="cd_stop_listening">Stop listening</string>
+    <string name="cd_clear_chat">Start new dispatch session</string>
+    <string name="quick_prompts_title">Try a quick dispatch</string>
+    <string name="thinking_understanding">Understanding your request and crafting spoken call script…</string>
+    <string name="call_plan_header">READY TO CALL</string>
+    <string name="call_plan_needs_number">PHONE NUMBER NEEDED</string>
+    <string name="phone_number_label">Company phone number</string>
+    <string name="phone_number_hint">e.g. +1 800 555 0199</string>
+    <string name="opening_script_label">Spoken opening script</string>
+    <string name="talking_points_label">Tap any point to speak</string>
+    <string name="action_preview_voice">Preview Voice</string>
+    <string name="action_stop_voice">Stop Voice</string>
+    <string name="action_call_and_speak">Call &amp; Speak</string>
+    <string name="action_open_studio">Open Call Studio</string>
+
+    <!-- Live Call Studio -->
+    <string name="studio_empty_title">No Active Call Yet</string>
+    <string name="studio_empty_subtitle">Start in Dispatch by chatting who you want to call, or jump into a quick manual dial &amp; speak session below.</string>
+    <string name="studio_quick_company_label">Company name</string>
+    <string name="studio_quick_script_label">What should VoxRelay speak?</string>
+    <string name="studio_start_manual_call">Launch Call &amp; Speak</string>
+    <string name="status_speaking">Speaking aloud…</string>
+    <string name="status_listening">Listening to representative…</string>
+    <string name="status_thinking">Drafting live spoken reply…</string>
+    <string name="status_ready">Ready on speakerphone</string>
+    <string name="action_speak_opening">Speak Opening</string>
+    <string name="action_listen_rep">Listen to Rep</string>
+    <string name="action_stop_listen">Stop Mic</string>
+    <string name="action_dial_phone">Dial Number</string>
+    <string name="action_speaker_on">Speaker On</string>
+    <string name="action_speaker_off">Speaker Off</string>
+    <string name="action_end_call">End &amp; Summarize</string>
+    <string name="rep_input_placeholder">Or type what the company rep said…</string>
+    <string name="cd_send_rep_line">Generate and speak reply</string>
+    <string name="live_transcript_title">Live Call Transcript</string>
+    <string name="role_ai_voice">VoxRelay Voice</string>
+    <string name="role_company_rep">Company Rep</string>
+    <string name="role_system">Call System</string>
+    <string name="speakerphone_tip">Tip: Place your phone call on speakerphone so the representative clearly hears VoxRelay speak.</string>
+
+    <!-- Logs & Voice Settings -->
+    <string name="section_call_logs">Session Call Logs</string>
+    <string name="empty_logs_title">No Completed Calls Yet</string>
+    <string name="empty_logs_subtitle">Ended calls with their Gemini summaries and full spoken transcripts will appear here.</string>
+    <string name="section_voice_studio">Voice &amp; Caller Studio</string>
+    <string name="caller_name_label">Your name (used in introductions)</string>
+    <string name="caller_name_placeholder">Optional, e.g. Alex Rivera</string>
+    <string name="voice_persona_label">Device voice engine</string>
+    <string name="voice_default_name">System Default Voice</string>
+    <string name="speech_rate_label">Speaking pace</string>
+    <string name="speech_pitch_label">Voice pitch</string>
+    <string name="default_tone_label">Default call tone</string>
+    <string name="toggle_auto_speak">Auto-speak live replies</string>
+    <string name="toggle_auto_speak_desc">Immediately speak each generated response during a call</string>
+    <string name="toggle_auto_speaker">Auto-enable speakerphone</string>
+    <string name="toggle_auto_speaker_desc">Route audio through speakerphone when starting a call</string>
+    <string name="toggle_direct_call">Direct one-tap calling</string>
+    <string name="toggle_direct_call_desc">Place calls immediately (requires Phone permission); off opens the dialer first</string>
+    <string name="action_test_voice">Test Spoken Voice</string>
+    <string name="test_voice_sample">Hello! I am calling on behalf of %1$s regarding an account request. Could you please assist me today?</string>
+    <string name="test_voice_sample_anonymous">Hello! I am calling with a quick question regarding an appointment and account request. Could you please assist me today?</string>
+    <string name="action_redial">Redial</string>
+    <string name="action_reuse_chat">Follow Up</string>
+
+    <!-- Permissions & Errors -->
+    <string name="permission_mic_denied">Microphone permission is needed to listen or dictate. You can still type messages directly.</string>
+    <string name="permission_call_fallback">Direct call permission not granted — opening your phone dialer instead.</string>
+    <string name="dialer_unavailable">No phone dialer app is available on this device, continuing in Call Studio.</string>
+    <string name="error_missing_phone">Enter a valid company phone number before placing the call.</string>
+    <string name="error_tts_unavailable">Text-to-speech engine is not ready on this device.</string>
+    <string name="cd_hero_banner">VoxRelay studio acoustic soundwave banner</string>
+</resources>

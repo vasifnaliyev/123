@@ -1,0 +1,6 @@
+{
+  "name": "VoxRelay",
+  "description": "AI call assistant that understands your chat message, dials a company, and speaks on your behalf.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
